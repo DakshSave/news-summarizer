@@ -41,10 +41,10 @@ class NewsSummarizer:
     def get_news_sources(self):
         # Fox-only sources
         return {
-            "Fox World": "https://moxie.foxnews.com/google-publisher/world.xml",
-            "Fox Politics": "https://moxie.foxnews.com/google-publisher/politics.xml",
-            "Fox Science": "https://moxie.foxnews.com/google-publisher/science.xml",
-            "Fox Tech": "https://moxie.foxnews.com/google-publisher/tech.xml"
+            "RSS Feed World": "https://moxie.foxnews.com/google-publisher/world.xml",
+            "RSS Feed Politics": "https://moxie.foxnews.com/google-publisher/politics.xml",
+            "RSS Feed Science": "https://moxie.foxnews.com/google-publisher/science.xml",
+            "RSS Feed Tech": "https://moxie.foxnews.com/google-publisher/tech.xml"
         }
 
     def fetch_articles(self):
